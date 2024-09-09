@@ -25,8 +25,6 @@ namespace Midterm2
                 cost = cost + (200 * 1.20); //Adds cost from previous and calculates 200 units at 1.20 (301-500 units)
                 units -= 500; //Removes 500 from units to calculate remainder
                 cost = cost + (units * 1.50); //Adds cost from previous and calculates remainder units at 1.50 (>500 units)
-
-
             }
             else if (units > 300)
             {
